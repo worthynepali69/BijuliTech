@@ -11,8 +11,7 @@ class TestBijuliSystem(unittest.TestCase):
     def setUp(self):
         """Run before every test: Setup DB connection"""
         self.db = Database()
-    # instructions: Nibesh, copy/paste this section first.
-    # ==========================================================================
+#portion by nibesh
     def test_database_connection(self):
         """[Nibesh] Verify that the application connects to MySQL successfully."""
         conn = self.db.get_connection()
